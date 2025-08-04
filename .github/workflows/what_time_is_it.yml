@@ -1,0 +1,8 @@
+name: Display the time
+
+on: push
+
+jobs:
+  steps:
+    - runs-on: ubuntu-latest
+    - run: date
