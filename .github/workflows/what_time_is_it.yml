@@ -1,8 +1,6 @@
 name: Display the time
-
-on: push
-
+on: [push]
 jobs:
   steps:
-    - runs-on: ubuntu-latest
-    - run: date
+    - runs-on:  ubuntu-latest
+    - run:  date
