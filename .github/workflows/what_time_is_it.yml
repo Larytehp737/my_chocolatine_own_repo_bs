@@ -1,6 +1,8 @@
-name: Display the time
+name: Display_the_time
 on: [push]
 jobs:
-  steps:
-    - runs-on:  ubuntu-latest
-    - run:  date
+  what_time_is_it:
+    runs-on: ubuntu-latest
+    steps:
+      - name: what_time_is_it
+      - run:  date
